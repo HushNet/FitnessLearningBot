@@ -31,7 +31,7 @@ public class Bot : BackgroundService
     {
         if (update.Type == UpdateType.CallbackQuery)
         {
-            await _inlineKeyboardController.Handle(update.Message, ct);
+            await _inlineKeyboardController.Handle(update.CallbackQuery, ct);
         }
 
         if (update.Type == UpdateType.Message)

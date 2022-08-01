@@ -13,8 +13,4 @@
       <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="2.0.0-alpha.1" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Models" />
-    </ItemGroup>
-
 </Project>
